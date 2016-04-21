@@ -3,13 +3,13 @@ package parsers
 import (
 	"fmt"
 
-	"github.com/sythe21/telegraf"
+	"github.com/influxdata/telegraf"
 
-	"github.com/sythe21/telegraf/plugins/parsers/graphite"
-	"github.com/sythe21/telegraf/plugins/parsers/influx"
-	"github.com/sythe21/telegraf/plugins/parsers/json"
-	"github.com/sythe21/telegraf/plugins/parsers/nagios"
-	"github.com/sythe21/telegraf/plugins/parsers/value"
+	"github.com/influxdata/telegraf/plugins/parsers/graphite"
+	"github.com/influxdata/telegraf/plugins/parsers/influx"
+	"github.com/influxdata/telegraf/plugins/parsers/json"
+	"github.com/influxdata/telegraf/plugins/parsers/nagios"
+	"github.com/influxdata/telegraf/plugins/parsers/value"
 )
 
 // ParserInput is an interface for input plugins that are able to parse

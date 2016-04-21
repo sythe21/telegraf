@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/sythe21/telegraf"
+	"github.com/influxdata/telegraf"
 )
 
 type serverStatus struct {

@@ -5,9 +5,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/sythe21/telegraf"
-	"github.com/sythe21/telegraf/plugins/inputs"
-	"github.com/sythe21/telegraf/plugins/parsers"
+	"github.com/influxdata/telegraf"
+	"github.com/influxdata/telegraf/plugins/inputs"
+	"github.com/influxdata/telegraf/plugins/parsers"
 
 	"github.com/Shopify/sarama"
 	"github.com/wvanbergen/kafka/consumergroup"
@@ -59,7 +59,7 @@ var sampleConfig = `
   ## Data format to consume.
   ## Each data format has it's own unique set of configuration options, read
   ## more about them here:
-  ## https://github.com/sythe21/telegraf/blob/master/docs/DATA_FORMATS_INPUT.md
+  ## https://github.com/influxdata/telegraf/blob/master/docs/DATA_FORMATS_INPUT.md
   data_format = "influx"
 `
 

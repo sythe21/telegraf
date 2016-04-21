@@ -3,8 +3,8 @@ package system
 import (
 	"os"
 
-	"github.com/sythe21/telegraf"
-	"github.com/sythe21/telegraf/internal"
+	"github.com/influxdata/telegraf"
+	"github.com/influxdata/telegraf/internal"
 
 	"github.com/shirou/gopsutil/cpu"
 	"github.com/shirou/gopsutil/disk"

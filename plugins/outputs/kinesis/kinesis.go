@@ -14,8 +14,8 @@ import (
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/kinesis"
 
-	"github.com/sythe21/telegraf"
-	"github.com/sythe21/telegraf/plugins/outputs"
+	"github.com/influxdata/telegraf"
+	"github.com/influxdata/telegraf/plugins/outputs"
 )
 
 type KinesisOutput struct {

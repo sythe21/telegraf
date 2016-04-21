@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/sythe21/telegraf/plugins/parsers"
-	"github.com/sythe21/telegraf/testutil"
+	"github.com/influxdata/telegraf/plugins/parsers"
+	"github.com/influxdata/telegraf/testutil"
 )
 
 func newTestUdpListener() (*UdpListener, chan []byte) {

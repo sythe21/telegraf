@@ -10,8 +10,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/sythe21/telegraf"
-	"github.com/sythe21/telegraf/plugins/inputs"
+	"github.com/influxdata/telegraf"
+	"github.com/influxdata/telegraf/plugins/inputs"
 )
 
 // HostPinger is a function that runs the "ping" function using a list of

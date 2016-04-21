@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/sythe21/telegraf"
+	"github.com/influxdata/telegraf"
 )
 
 type ValueParser struct {

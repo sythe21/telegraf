@@ -15,8 +15,8 @@ import (
 
 	"github.com/docker/engine-api/client"
 	"github.com/docker/engine-api/types"
-	"github.com/sythe21/telegraf"
-	"github.com/sythe21/telegraf/plugins/inputs"
+	"github.com/influxdata/telegraf"
+	"github.com/influxdata/telegraf/plugins/inputs"
 )
 
 // Docker object

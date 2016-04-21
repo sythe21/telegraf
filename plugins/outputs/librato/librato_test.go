@@ -9,9 +9,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/sythe21/telegraf"
-	"github.com/sythe21/telegraf/plugins/serializers/graphite"
-	"github.com/sythe21/telegraf/testutil"
+	"github.com/influxdata/telegraf"
+	"github.com/influxdata/telegraf/plugins/serializers/graphite"
+	"github.com/influxdata/telegraf/testutil"
 	"github.com/stretchr/testify/require"
 )
 

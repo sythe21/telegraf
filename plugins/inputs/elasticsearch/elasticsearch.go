@@ -9,9 +9,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/sythe21/telegraf"
-	"github.com/sythe21/telegraf/plugins/inputs"
-	jsonparser "github.com/sythe21/telegraf/plugins/parsers/json"
+	"github.com/influxdata/telegraf"
+	"github.com/influxdata/telegraf/plugins/inputs"
+	jsonparser "github.com/influxdata/telegraf/plugins/parsers/json"
 )
 
 const statsPath = "/_nodes/stats"

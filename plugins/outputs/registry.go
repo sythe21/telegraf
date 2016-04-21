@@ -1,7 +1,7 @@
 package outputs
 
 import (
-	"github.com/sythe21/telegraf"
+	"github.com/influxdata/telegraf"
 )
 
 type Creator func() telegraf.Output

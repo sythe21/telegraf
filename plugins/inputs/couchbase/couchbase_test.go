@@ -3,7 +3,7 @@ package couchbase
 import (
 	"encoding/json"
 	couchbase "github.com/couchbase/go-couchbase"
-	"github.com/sythe21/telegraf/testutil"
+	"github.com/influxdata/telegraf/testutil"
 	"testing"
 )
 

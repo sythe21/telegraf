@@ -9,11 +9,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/sythe21/telegraf"
-	"github.com/sythe21/telegraf/internal"
-	"github.com/sythe21/telegraf/plugins/outputs"
+	"github.com/influxdata/telegraf"
+	"github.com/influxdata/telegraf/internal"
+	"github.com/influxdata/telegraf/plugins/outputs"
 
-	"github.com/sythe21/influxdb/client/v2"
+	"github.com/influxdata/influxdb/client/v2"
 )
 
 type InfluxDB struct {

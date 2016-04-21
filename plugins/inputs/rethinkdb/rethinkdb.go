@@ -5,8 +5,8 @@ import (
 	"net/url"
 	"sync"
 
-	"github.com/sythe21/telegraf"
-	"github.com/sythe21/telegraf/plugins/inputs"
+	"github.com/influxdata/telegraf"
+	"github.com/influxdata/telegraf/plugins/inputs"
 
 	"gopkg.in/dancannon/gorethink.v1"
 )
