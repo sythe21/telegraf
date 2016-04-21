@@ -13,17 +13,17 @@ import (
 	"strings"
 	"time"
 
-	"github.com/sythe21/telegraf"
-	"github.com/sythe21/telegraf/internal"
-	"github.com/sythe21/telegraf/internal/models"
-	"github.com/sythe21/telegraf/plugins/inputs"
-	"github.com/sythe21/telegraf/plugins/outputs"
-	"github.com/sythe21/telegraf/plugins/parsers"
-	"github.com/sythe21/telegraf/plugins/serializers"
+	"github.com/influxdata/telegraf"
+	"github.com/influxdata/telegraf/internal"
+	"github.com/influxdata/telegraf/internal/models"
+	"github.com/influxdata/telegraf/plugins/inputs"
+	"github.com/influxdata/telegraf/plugins/outputs"
+	"github.com/influxdata/telegraf/plugins/parsers"
+	"github.com/influxdata/telegraf/plugins/serializers"
 
-	"github.com/sythe21/config"
-	"github.com/sythe21/toml"
-	"github.com/sythe21/toml/ast"
+	"github.com/influxdata/config"
+	"github.com/influxdata/toml"
+	"github.com/influxdata/toml/ast"
 )
 
 var (

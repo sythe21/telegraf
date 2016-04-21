@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/sythe21/telegraf"
+	"github.com/influxdata/telegraf"
 )
 
 // Minimum and maximum supported dates for timestamps.

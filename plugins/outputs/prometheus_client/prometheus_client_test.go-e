@@ -6,9 +6,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/sythe21/telegraf"
-	"github.com/sythe21/telegraf/plugins/inputs/prometheus"
-	"github.com/sythe21/telegraf/testutil"
+	"github.com/influxdata/telegraf"
+	"github.com/influxdata/telegraf/plugins/inputs/prometheus"
+	"github.com/influxdata/telegraf/testutil"
 )
 
 var pTesting *PrometheusClient

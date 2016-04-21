@@ -4,9 +4,9 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/sythe21/telegraf"
+	"github.com/influxdata/telegraf"
 
-	"github.com/sythe21/influxdb/models"
+	"github.com/influxdata/influxdb/models"
 )
 
 // InfluxParser is an object for Parsing incoming metrics.

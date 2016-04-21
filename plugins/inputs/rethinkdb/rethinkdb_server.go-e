@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/sythe21/telegraf"
+	"github.com/influxdata/telegraf"
 
 	"gopkg.in/dancannon/gorethink.v1"
 )

@@ -8,7 +8,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/sythe21/telegraf/testutil"
+	"github.com/influxdata/telegraf/testutil"
 )
 
 var mesosMetrics map[string]interface{}

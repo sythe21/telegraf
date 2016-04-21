@@ -1,7 +1,7 @@
 package inputs
 
 import (
-	"github.com/sythe21/telegraf"
+	"github.com/influxdata/telegraf"
 
 	"github.com/stretchr/testify/mock"
 )

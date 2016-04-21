@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/sythe21/telegraf"
+	"github.com/influxdata/telegraf"
 
 	"github.com/stretchr/testify/assert"
 )

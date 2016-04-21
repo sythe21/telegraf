@@ -6,7 +6,7 @@ import (
 
 	"github.com/gobwas/glob"
 
-	"github.com/sythe21/telegraf"
+	"github.com/influxdata/telegraf"
 )
 
 // TagFilter is the name of a tag, and the values on which to filter

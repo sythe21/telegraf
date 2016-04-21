@@ -5,7 +5,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/sythe21/telegraf"
+	"github.com/influxdata/telegraf"
 )
 
 const (
