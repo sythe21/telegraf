@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"strconv"
 
-	"github.com/influxdata/telegraf"
+	"github.com/sythe21/telegraf"
 )
 
 type MongodbData struct {

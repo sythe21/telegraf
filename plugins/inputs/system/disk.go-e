@@ -3,8 +3,8 @@ package system
 import (
 	"fmt"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/plugins/inputs"
+	"github.com/sythe21/telegraf"
+	"github.com/sythe21/telegraf/plugins/inputs"
 )
 
 type DiskStats struct {

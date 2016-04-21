@@ -3,7 +3,7 @@ package system
 import (
 	"testing"
 
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/sythe21/telegraf/testutil"
 	"github.com/shirou/gopsutil/disk"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
