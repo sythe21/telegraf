@@ -10,10 +10,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/internal"
-	"github.com/influxdata/telegraf/plugins/inputs"
-	"github.com/influxdata/telegraf/plugins/parsers"
+	"github.com/sythe21/telegraf"
+	"github.com/sythe21/telegraf/internal"
+	"github.com/sythe21/telegraf/plugins/inputs"
+	"github.com/sythe21/telegraf/plugins/parsers"
 )
 
 type HttpJson struct {

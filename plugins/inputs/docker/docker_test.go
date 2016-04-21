@@ -11,7 +11,7 @@ import (
 
 	"github.com/docker/engine-api/types"
 	"github.com/docker/engine-api/types/registry"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/sythe21/telegraf/testutil"
 
 	"github.com/stretchr/testify/require"
 )

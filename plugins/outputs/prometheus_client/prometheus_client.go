@@ -7,8 +7,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/plugins/outputs"
+	"github.com/sythe21/telegraf"
+	"github.com/sythe21/telegraf/plugins/outputs"
 	"github.com/prometheus/client_golang/prometheus"
 )
 

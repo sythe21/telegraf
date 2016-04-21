@@ -8,10 +8,10 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/internal"
-	"github.com/influxdata/telegraf/plugins/outputs"
-	"github.com/influxdata/telegraf/plugins/serializers/graphite"
+	"github.com/sythe21/telegraf"
+	"github.com/sythe21/telegraf/internal"
+	"github.com/sythe21/telegraf/plugins/outputs"
+	"github.com/sythe21/telegraf/plugins/serializers/graphite"
 )
 
 type Librato struct {
@@ -42,7 +42,7 @@ var sampleConfig = `
   ## Connection timeout.
   # timeout = "5s"
   ## Output Name Template (same as graphite buckets)
-  ## see https://github.com/influxdata/telegraf/blob/master/docs/DATA_FORMATS_OUTPUT.md#graphite
+  ## see https://github.com/sythe21/telegraf/blob/master/docs/DATA_FORMATS_OUTPUT.md#graphite
   template = "host.tags.measurement.field"
 `
 

@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/sythe21/telegraf/testutil"
 
 	"github.com/miekg/dns"
 	"github.com/stretchr/testify/assert"

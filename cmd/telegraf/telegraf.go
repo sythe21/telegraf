@@ -9,12 +9,12 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/influxdata/telegraf/agent"
-	"github.com/influxdata/telegraf/internal/config"
-	"github.com/influxdata/telegraf/plugins/inputs"
-	_ "github.com/influxdata/telegraf/plugins/inputs/all"
-	"github.com/influxdata/telegraf/plugins/outputs"
-	_ "github.com/influxdata/telegraf/plugins/outputs/all"
+	"github.com/sythe21/telegraf/agent"
+	"github.com/sythe21/telegraf/internal/config"
+	"github.com/sythe21/telegraf/plugins/inputs"
+	_ "github.com/sythe21/telegraf/plugins/inputs/all"
+	"github.com/sythe21/telegraf/plugins/outputs"
+	_ "github.com/sythe21/telegraf/plugins/outputs/all"
 )
 
 var fDebug = flag.Bool("debug", false,

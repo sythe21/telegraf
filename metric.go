@@ -3,7 +3,7 @@ package telegraf
 import (
 	"time"
 
-	"github.com/influxdata/influxdb/client/v2"
+	"github.com/sythe21/influxdb/client/v2"
 )
 
 type Metric interface {

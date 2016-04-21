@@ -4,7 +4,7 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/influxdata/telegraf"
+	"github.com/sythe21/telegraf"
 	"gopkg.in/mgo.v2"
 	"gopkg.in/mgo.v2/bson"
 )

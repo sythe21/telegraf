@@ -6,9 +6,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/plugins/inputs"
-	"github.com/influxdata/telegraf/plugins/parsers"
+	"github.com/sythe21/telegraf"
+	"github.com/sythe21/telegraf/plugins/inputs"
+	"github.com/sythe21/telegraf/plugins/parsers"
 )
 
 type UdpListener struct {
@@ -16,7 +16,7 @@ type UdpListener struct {
 	// UDPPacketSize is deprecated, it's only here for legacy support
 	// we now always create 1 max size buffer and then copy only what we need
 	// into the in channel
-	// see https://github.com/influxdata/telegraf/pull/992
+	// see https://github.com/sythe21/telegraf/pull/992
 	UDPPacketSize          int `toml:"udp_packet_size"`
 	AllowedPendingMessages int
 
@@ -52,7 +52,7 @@ const sampleConfig = `
   ## Data format to consume.
   ## Each data format has it's own unique set of configuration options, read
   ## more about them here:
-  ## https://github.com/influxdata/telegraf/blob/master/docs/DATA_FORMATS_INPUT.md
+  ## https://github.com/sythe21/telegraf/blob/master/docs/DATA_FORMATS_INPUT.md
   data_format = "influx"
 `
 

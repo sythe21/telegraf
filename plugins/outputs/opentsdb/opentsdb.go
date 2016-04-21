@@ -8,8 +8,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/plugins/outputs"
+	"github.com/sythe21/telegraf"
+	"github.com/sythe21/telegraf/plugins/outputs"
 )
 
 type OpenTSDB struct {
