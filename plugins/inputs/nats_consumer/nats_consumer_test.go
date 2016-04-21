@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/influxdata/telegraf/plugins/parsers"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/sythe21/telegraf/plugins/parsers"
+	"github.com/sythe21/telegraf/testutil"
 	"github.com/nats-io/nats"
 )
 

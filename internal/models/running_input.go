@@ -3,7 +3,7 @@ package internal_models
 import (
 	"time"
 
-	"github.com/influxdata/telegraf"
+	"github.com/sythe21/telegraf"
 )
 
 type RunningInput struct {

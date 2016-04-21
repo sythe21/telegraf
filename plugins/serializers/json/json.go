@@ -3,7 +3,7 @@ package json
 import (
 	ejson "encoding/json"
 
-	"github.com/influxdata/telegraf"
+	"github.com/sythe21/telegraf"
 )
 
 type JsonSerializer struct {

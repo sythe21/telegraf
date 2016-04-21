@@ -5,7 +5,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/influxdata/telegraf"
+	"github.com/sythe21/telegraf"
 )
 
 const meas = "github_webhooks"
