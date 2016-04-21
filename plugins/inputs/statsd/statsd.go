@@ -448,13 +448,13 @@ func (s *Statsd) parseStatsdLine(line string) error {
 		m.name, m.field, m.tags = s.parseName(m.bucket)
 		switch m.mtype {
 		case "c":
-			m.tags["metric_type"] = "counters"
+			m.tags["metric_type"] = "counter"
 		case "g":
-			m.tags["metric_type"] = "gauges"
+			m.tags["metric_type"] = "gauge"
 		case "s":
 			m.tags["metric_type"] = "set"
 		case "ms":
-			m.tags["metric_type"] = "timers"
+			m.tags["metric_type"] = "timing"
 		case "h":
 			m.tags["metric_type"] = "histogram"
 		}
